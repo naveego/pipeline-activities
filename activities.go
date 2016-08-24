@@ -9,6 +9,6 @@ import (
 func init() {
 
 	activity.RegisterActivityFactory("map", func() types.Activity { return &transforms.MapActivity{} })
-	activity.RegisterActivityFactory("passthru", func() types.Activity { return &PassthroughActivity{} })
+	activity.RegisterActivityFactory("passthrough", func() types.Activity { return &PassthroughActivity{} })
 
 }
