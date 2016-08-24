@@ -8,7 +8,7 @@ import (
 type MapActivity struct {
 }
 
-func (m *MapActivity) Execute(ctx types.Context, dataPoint types.DataPoint) error {
+func (m *MapActivity) Execute(context types.ActivityContext, dataPoint types.DataPoint) error {
 	logrus.Info("Hello from map")
 	return nil
 }
