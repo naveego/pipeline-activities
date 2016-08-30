@@ -2,7 +2,7 @@ package activities
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/naveego/naveego-api/types/pipeline"
+	"github.com/naveego/api/types/pipeline"
 	"github.com/naveego/pipeline-api/activity"
 )
 
